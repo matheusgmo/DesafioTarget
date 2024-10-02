@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="index.js" defer></script>
+    <title>Projeto Target Sistemas</title>
+</head>
+<body>
+
+    <h1 class="display-3 text-bg-dark p-3">Desafios Target</h1>
+    <div class="container-fluid p-3">
+        <h2 class="display-5">Primeiro Desafio</h2>
+        <form class="d-flex gap-2  mt-3" id="form1">
+            <div class="form-floating w-75">
+                <input type="number" id="num" class="form-control" placeholder="0">
+                <label for="num">Digite um Numero: </label>
+            </div>
+            <button type="submit" class="btn btn-danger ps-4 pe-4">Enviar</button>
+        </form>
+        <p id="res1" class="text-secondary mt-3"></p>
+        
+        <h2 class="display-5 mt-3">Segundo Desafio</h2>
+        <form class="d-flex gap-2  mt-3" id="form2">
+            <div class="form-floating w-75">
+                <input type="text" id="text" class="form-control" placeholder="Texto...">
+                <label for="text">Digite um Texto: </label>
+            </div>
+            <button type="submit" class="btn btn-danger ps-4 pe-4">Enviar</button>
+        </form>
+        <p id="res2" class="text-secondary mt-3"></p>
+
+        <h2 class="display-5 mt-3">Terceiro Desafio</h2>
+        <p class="text-secondary mt-3">O valor final de SOMA é 77.</p>
+        
+        <h2 class="display-5 mt-3">Quarto Desafio</h2>
+        <p class="text-secondary mt-3">
+            a: 1, 3, 5, 7, 9 <br>
+            b: 2, 4, 8, 16, 32, 64, 128 <br>
+            c: 0, 1, 4, 9, 16, 25, 36, 49 <br>
+            d: 4, 16, 36, 64, 100 <br>
+            e: 1, 1, 2, 3, 5, 8, 13 <br>
+            f: 2,10, 12, 16, 17, 18, 19, 20 <br>
+        </p>
+        
+        <h2 class="display-5 mt-3">Quinto Desafio</h2>
+        <p class="text-secondary mt-3">
+            Ligue o primeiro interruptor (A) e deixe-o ligado por 5-10 minutos. <br>
+            Desligue o Interruptor A e ligue o segundo interruptor (B).
+            Vá até a sala das lâmpadas: <br>
+            -Se uma lâmpada estiver ligada, é controlada por B. <br>
+            -Se uma lâmpada estiver desligada e quente, é controlada por A. <br>
+            -Se uma lâmpada estiver desligada e fria, é controlada pelo terceiro interruptor (C). <br>
+        </p>
+    </div>
+
+</body>
+</html>
